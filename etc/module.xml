@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * HiPay Fullservice Magento Data
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Apache 2.0 Licence
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * @author      HiPay <support.tpp@hipay.com>
+ * @copyright   Copyright (c) 2019 - HiPay
+ * @license     https://github.com/hipay/hipay-fullservice-sdk-magento2-data/blob/master/LICENSE.md
+ * @link    https://github.com/hipay/hipay-fullservice-sdk-magento2-data
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="HiPay_FullserviceMagentoData" setup_version="1.0.0">
+        <sequence>
+            <module name="HiPay_FullserviceMagento"/>
+        </sequence>
+    </module>
+</config>
